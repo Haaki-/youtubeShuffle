@@ -1,0 +1,27 @@
+h1, h2, h3, table, th, td, select, option, input, label, textarea{
+  color: #aaaebc;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+body {
+  background-color: #2b2d2f;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+}
+select, option, input, textarea {
+  border-width:1px;
+  background-color: #1e1f26;
+}
+input {
+  margin-right: 2px;
+}
+.err {
+  color: red;
+}
+table, tr {
+  border-bottom: 1px solid #aaaebc;
+  text-align: left;
+}
