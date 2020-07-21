@@ -54,6 +54,7 @@ const getPlayListItems = async playlistID => {
         part: "id,snippet,status",
         playlistId: playlistID,
         pageToken: nextPage,
+        maxResults: 50,
         key: decryptKey(KEY)
       }
     }
